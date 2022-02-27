@@ -1,5 +1,5 @@
 package com.promineotech.jeep.controller;
-import static org.assertj.core.api.Assertions.assertThat; 
+import static org.assertj.core.api.Assertions.assertThat;   
 import java.math.BigDecimal;
 import java.util.LinkedList;
 import java.util.List;
@@ -25,6 +25,7 @@ import com.promineotech.jeep.entity.JeepModel;
     "classpath:flyway/migrations/V1.1__Jeep_Data.sql"}, 
     config = @SqlConfig(encoding = "utf-8"))
 class FetchJeepTest{
+  
   @Autowired
   private TestRestTemplate restTemplate;
   @LocalServerPort
