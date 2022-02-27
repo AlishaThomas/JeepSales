@@ -8,14 +8,18 @@
     <version>2.6.3</version>
     <relativePath/> <!-- lookup parent from repository -->
   </parent>
+  
   <groupId>com.promineotech</groupId>
   <artifactId>jeep-sales</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
   <name>jeep-sales</name>
   <description>jeep-sales</description>
+  
   <properties>
     <java.version>11</java.version>
   </properties>
+  
   <dependencies>
     <dependency>
       <groupId>org.springframework.boot</groupId>

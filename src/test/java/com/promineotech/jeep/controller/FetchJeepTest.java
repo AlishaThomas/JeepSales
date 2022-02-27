@@ -1,5 +1,5 @@
 package com.promineotech.jeep.controller;
-import static org.assertj.core.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat; 
 import java.math.BigDecimal;
 import java.util.LinkedList;
 import java.util.List;
@@ -20,8 +20,8 @@ import com.promineotech.jeep.entity.Jeep;
 import com.promineotech.jeep.entity.JeepModel;
 @SpringBootTest(webEnvironment = WebEnvironment.RANDOM_PORT)
 @ActiveProfiles("test")
-@Sql(scripts = {    
-    "classpath:flyway/migrations/V1.0__Jeep_Schema.sql",
+@Sql(
+      scripts = {"classpath:flyway/migrations/V1.0__Jeep_Schema.sql",
     "classpath:flyway/migrations/V1.1__Jeep_Data.sql"}, 
     config = @SqlConfig(encoding = "utf-8"))
 class FetchJeepTest{
