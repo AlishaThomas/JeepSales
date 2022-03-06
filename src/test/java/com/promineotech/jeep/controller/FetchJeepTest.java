@@ -1,5 +1,6 @@
 package com.promineotech.jeep.controller;
-import static org.assertj.core.api.Assertions.assertThat;   
+import static org.assertj.core.api.Assertions.assertThat;    
+
 import java.math.BigDecimal;
 import java.util.LinkedList;
 import java.util.List;
